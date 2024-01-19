@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type:none;
+    align-items: center;
+    background-color: black;
+    color: white; 
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    font-family: 'Caveat';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    align-items:center;
+    padding:0 22px
+}
+
+li img{
+    width:40px;
+    padding:0 2px
+}
+
+li{
+    padding: 0 12px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+li.cursor{
+    cursor: pointer;
+}
+.container{
+    min-height: 75vh;
+    margin: -5px;
+}
+
+div.Container{
+    background-image: url('images/bg_img.jpg');
+    color: white;
+}
+div h1{
+    margin:20px;
+    font-family: 'Caveat', 'cursive';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    height: 100px;
+    bottom: 0;
+    position: sticky;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#progressBar{  
+    width: 85vw;
+    cursor: pointer;
+}
+
+.songList{
+    background-image: url('./images/bg_img.jpg');
+    height:90vh;
+    color:white;
+    margin:25px;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.musicName{
+    height: 30px;
+    padding:10px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Caveat', 'cursive';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.musicContainer{
+    background-color: rgb(207, 229, 121);
+    width:fit-content;
+    color: black;
+    height:30px;
+    border-radius: 40px;
+    margin: 12px;
+}
+.songDur{
+    padding:15px;
+}
+.musicImg{
+    width:25px;
+    border-radius: 40px;
+    margin: 0 12px;
+}
+
+.icons{
+    color: white;
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#font{
+    padding:15px;
+    cursor: pointer;
+    margin:4px
+}
+
+.wave{
+    width:60px;
+    opacity: 0;
+    align-content: space-between;
+    transition: opacity 0.4s ease-in;
+}
+
+#one{
+    width: 8px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left:0
+}
