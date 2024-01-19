@@ -12,7 +12,7 @@ let miPlay = Array.from(document.getElementsByClassName('miPlay'))
 let songs=[
     {songName:"Kesari ke laal",filepath:"songs/1.mp3",coverpath:"images/img1.png"},
     {songName:"Rudra Shiva Mantra",filepath:"songs/2.mp3",coverpath:"images/img2.jpg"},
-    {songName:"Jai Shree Ram Prabhas",filepath:"songs/3.mp3",coverpath:"images/img3.jpg"},
+    {songName:"Jai Shree Ram Prabha",filepath:"songs/3.mp3",coverpath:"images/img3.jpg"},
     {songName:"Kousalya Dashrath Nandan",filepath:"songs/4.mp3",coverpath:"images/img4.jpg"},
     {songName:"Badal Barsa Bijuli | Nepali",filepath:"songs/5.mp3",coverpath:"images/img5.jpg"}, 
 ]
